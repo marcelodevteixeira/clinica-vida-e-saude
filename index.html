@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clínica Vida e Saúde</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<script src="script.js"></script>
+
+
+<body>
+     <header class="hero-header">
+    <div class="hero-overlay">
+      <h1>Clínica Vida e Saúde</h1>
+      <p>Cuidando da sua saúde com dedicação e carinho</p>
+    </div>
+  </header>
+  
+  <nav class="navbar">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#sobre-clinica">Sobre a Clínica</a></li>
+      <li><a href="#servicos">Serviços</a></li>
+      <li><a href="#contato">Fale Conosco</a></li>
+      <li><a href="#localizacao">Localização</a></li>
+      <li><a href="#agendamento">Agendamento</a></li>
+    </ul>
+  </nav>
+  
+  <main>
+
+    <section id="servicos">
+      <h2>Nossos Serviços</h2>
+      <div class="services">
+        <div class="card">
+          <img src="https://images.pexels.com/photos/5215013/pexels-photo-5215013.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Consulta médica">
+          <h3>Consultas Médicas</h3>
+          <p>Atendimento com profissionais de diversas especialidades, com foco na prevenção e no diagnóstico preciso.</p>
+        </div>
+        <div class="card">
+          <img src="https://images.pexels.com/photos/7089617/pexels-photo-7089617.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Exames laboratoriais">
+          <h3>Exames Laboratoriais</h3>
+          <p>Laboratório próprio com agilidade na coleta e precisão nos resultados.</p>
+        </div>
+        <div class="card">
+          <img src="https://images.pexels.com/photos/15319047/pexels-photo-15319047/free-photo-of-mulher-escritorio-sentado-frutas.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Nutricionista">
+          <h3>Nutrição e Bem-Estar</h3>
+          <p>Acompanhamento nutricional personalizado para uma vida mais equilibrada.</p>
+        </div>
+      </div>
+    </section>
+
+    
+<section id="equipe">
+    <h2>Nossa Equipe</h2>
+    <div class="services">
+      <div class="card">
+        <img src="https://images.pexels.com/photos/8376277/pexels-photo-8376277.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Dra. Ana Paula">
+        <h3>Dra. Ana Paula</h3>
+        <p>Clínica Geral – Atendimento humanizado e foco na medicina preventiva.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.pexels.com/photos/4989135/pexels-photo-4989135.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Dr. Carlos Henrique">
+        <h3>Dr. Carlos Henrique</h3>
+        <p>Cardiologista – Especialista em saúde do coração e cuidados integrados.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.pexels.com/photos/15391542/pexels-photo-15391542/free-photo-of-mulher-mesa-balcao-computador-portatil.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Dra. Fernanda Lima">
+        <h3>Dra. Fernanda Lima</h3>
+        <p>Nutricionista – Acompanhamento alimentar personalizado para todas as idades.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="sobre-clinica" class="sobre-clinica">
+    <h2>Sobre a Clínica Vida e Saúde</h2>
+    <p>Na Clínica Vida e Saúde, acreditamos que cuidar da saúde vai além do atendimento médico, é acolher, ouvir e oferecer um espaço seguro para cada paciente. Unimos tecnologia, estrutura moderna e uma equipe multidisciplinar comprometida com o bem-estar físico e emocional de todos que passam por aqui.</p>
+    <p>Seja para uma consulta, exame ou acompanhamento contínuo, estamos prontos para caminhar ao seu lado com empatia, responsabilidade e excelência.</p>
+  </section>
+  
+  
+    
+  <section id="agendamento">
+    <h2>Agende sua Consulta</h2>
+    <p>Preencha o formulário abaixo para agendar sua consulta com um dos nossos profissionais.</p>
+    <form>
+      <label for="nome">Nome Completo</label>
+      <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
+  
+      <label for="cpf">CPF</label>
+      <input type="text" id="cpf" name="cpf" placeholder="Seu CPF" required>
+  
+      <label for="telefone">Telefone</label>
+      <input type="tel" id="telefone" name="telefone" placeholder="Seu telefone" required>
+  
+      <label for="especialidade">Especialidade</label>
+      <select id="especialidade" name="especialidade" required>
+        <option value="" selected disabled hidden>Selecione a especialidade</option>
+        <option value="clinico-geral">Clínico Geral</option>
+        <option value="cardiologia">Cardiologia</option>
+        <option value="nutricao">Nutrição</option>
+      </select>
+  
+      <label for="profissional">Profissional</label>
+      <select id="profissional" name="profissional" required>
+        <option value="" selected disabled hidden>Selecione o profissional</option>
+      </select>
+  
+      <button type="submit">Agendar Consulta</button>
+    </form>
+  
+  
+
+    <section id="contato">
+      <h2>Fale Conosco</h2>
+      <form>
+        <input type="text" placeholder="Nome completo" required>
+        <input type="email" placeholder="E-mail" required>
+        <input type="text" placeholder="Cidade" required>
+        <input type="text" placeholder="Estado" required>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+    
+    <section id="localizacao">
+        <h2>Localização</h2>
+        <p>Rua SGAS 605, lts. 32/33 – Asa Sul – CEP: 70.200-650, Brasília, DF</p>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.095635038724!2d-47.929138284467095!3d-15.780142794836072!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9340e57c2a5a13e7%3A0x3c2dbe7a52985396!2sSGAS+605%2C+lts.+32%2F33+-+Asa+Sul%2C+Bras%C3%ADlia+-+DF%2C+70200-650!5e0!3m2!1spt-BR!2sbr!4v1620134737760!5m2!1spt-BR!2sbr"
+          width="100%" height="300" style="border:0; border-radius: 10px; margin-top: 20px;" allowfullscreen="" loading="lazy">
+        </iframe>
+      </section>
+      
+
+    
+    <section id="agendamento">
+      <h2>Agende sua Consulta</h2>
+      <p>
+        Você também pode agendar uma consulta ou exame, no contato pelo WhatsApp <strong>(61) 98555-1234</strong>, aguardamos você. 
+      </p>
+    </section>
+  </main>
+
+</body>
+</html>
+
